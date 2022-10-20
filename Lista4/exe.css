@@ -1,23 +1,18 @@
-div
-    {
+div{
         margin-bottom: 20px;
     }
-body
-    {
+body{
         background-color: aqua;
         
     }
-section
-    {
+section{
         border-radius: 20px; 
-        background-color: blue;
+        background-color: white;
         padding: 20px; /*espaçamento interno a direita esquerda acima abaixo*/
         margin: auto;
         margin-top: 60px;
-        width: 200px;
+        width: 500px;
     }
-    /*mudar a cor do paragrafo*/
-    p
-    {
-        color: oldlace;
+    p{
+        color: black;
     }
