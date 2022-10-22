@@ -16,6 +16,7 @@ function exe7(){
             cont1++
         }
     }
+    
     console.log(`Numeros P: ${positivos}`)
     console.log(`SOMA: ${soma}`)
     console.log(`Numeros N: ${negativos}`)
