@@ -1,19 +1,15 @@
-
 function exe10(){
     let vetor = []
     let vetor2 = []
     let resultante = []
     let pares_v1 = []
     let soma = 0
-    const arr = "".length
+
     for(let i=0; i<10; i++){
         vetor.push(Number(prompt(`Digite o ${i+1}º valor inteiro: `)))
 
         if(vetor[i]%2 == 0){
-            pares_v1[i] = vetor[i]
-        }
-        else{
-            pares_v1[i] = arr
+            pares_v1.push(vetor[i])
         }
     }
     
@@ -33,7 +29,7 @@ function exe10(){
         alert(`Não existem números pares!`)
     }
     else{
-        for(let i=0; i<10; i++){
+        for(let i=0; i<5; i++){
             resultante[i] = soma + pares_v1[i]
         }
     }
