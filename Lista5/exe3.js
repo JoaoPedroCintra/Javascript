@@ -1,4 +1,4 @@
-function exe8(){
+function exe3(){
     let vetor = []
     for(let i=0;i<5;i++){ // entrada de dados
         // cria objeto
