@@ -10,12 +10,12 @@ function exe4() {
 }
 
 function nome(aluno) {
-    for (i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         aluno.push(prompt(`Digite o nome do ${i + 1}º aluno: `))
     }
 }
 
-function Notas(matriz, aluno) {
+function notas(matriz, aluno) {
     for (let i = 0; i < 5; i++) {
         matriz[i] = []
         alert(`Informe as notas do ${aluno[i]}:`)
