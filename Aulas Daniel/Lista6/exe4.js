@@ -3,7 +3,7 @@ function exe4() {
     let alunos = []
     nome(alunos)
     console.log(alunos)
-    Notas(matriz_notas, alunos)
+    notas(matriz_notas, alunos)
     console.log(matriz_notas)
     mostrarNotas(matriz_notas, alunos)
     media(matriz_notas, alunos)
@@ -20,7 +20,7 @@ function notas(matriz, aluno) {
         matriz[i] = []
         alert(`Informe as notas do ${aluno[i]}:`)
         for (let j = 0; j < 3; j++) {
-            matriz[i][j] =  Number(prompt(`Nota ${j + 1}: `)) //(Math.random() * 10).toFixed()      
+            matriz[i][j] = Number(prompt(`Nota ${j + 1}: `)) //(Math.random() * 10).toFixed()      
         }
     }
 }
