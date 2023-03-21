@@ -13,3 +13,5 @@ function calcularExe2() {
     }
     console.log(`Maior lucro ${maiorLucro}`)
 }
+
+calcularExe2()

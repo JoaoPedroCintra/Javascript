@@ -18,3 +18,5 @@ function principal() {
     console.log(`Total ${totalVista + totalPrazo}`)
     console.log(`Primeira parcela ${totalPrazo / 3}`)
 }
+
+principal()
